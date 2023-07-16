@@ -1,0 +1,8 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+threadpool = { path = "../threadpool" }
+anyhow = "1.0.71"
